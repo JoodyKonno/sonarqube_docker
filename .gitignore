@@ -1,0 +1,14 @@
+conf/*
+!conf/.gitkeep
+
+data/*
+!data/.gitkeep
+
+db/*
+!db/.gitkeep
+
+extensions/*
+!extensions/.gitkeep
+
+logs/*
+!logs/.gitkeep

@@ -1,0 +1,14 @@
+version: "3"
+services:  
+  sonarqube:
+    container_name: sonarqube
+    restart: always
+    volumes:
+      - './conf:/opt/sonarqube/conf'
+      - './data:/opt/sonarqube/data'
+      - './logs:/opt/sonarqube/logs'
+      - './extensions:/opt/sonarqube/extensions'
+    ports:
+      - '9000:9000'
+      - '9002:9002'
+    image: sonarqube
